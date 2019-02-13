@@ -1,0 +1,42 @@
+['From: (wheres my thing) Subject: WHAT car is this!? Nntp-Posting-Host: '
+ 'rac3.wam.umd.edu Organization: University of Maryland, College Park Lines: '
+ '15 I was wondering if anyone out there could enlighten me on this car I saw '
+ 'the other day. It was a 2-door sports car, looked to be from the late 60s/ '
+ 'early 70s. It was called a Bricklin. The doors were really small. In '
+ 'addition, the front bumper was separate from the rest of the body. This is '
+ 'all I know. If anyone can tellme a model name, engine specs, years of '
+ 'production, where this car is made, history, or whatever info you have on '
+ 'this funky looking car, please e-mail. Thanks, - IL ---- brought to you by '
+ 'your neighborhood Lerxst ---- ']
+[['from', 'wheres', 'my', 'thing', 'subject', 'what', 'car', 'is', 'this', 'nntp', 'posting', 'host', 'rac', 'wam', 'umd', 'edu', 'organization', 'university', 'of', 'maryland', 'college', 'park', 'lines', 'was', 'wondering', 'if', 'anyone', 'out', 'there', 'could', 'enlighten', 'me', 'on', 'this', 'car', 'saw', 'the', 'other', 'day', 'it', 'was', 'door', 'sports', 'car', 'looked', 'to', 'be', 'from', 'the', 'late', 'early', 'it', 'was', 'called', 'bricklin', 'the', 'doors', 'were', 'really', 'small', 'in', 'addition', 'the', 'front', 'bumper', 'was', 'separate', 'from', 'the', 'rest', 'of', 'the', 'body', 'this', 'is', 'all', 'know', 'if', 'anyone', 'can', 'tellme', 'model', 'name', 'engine', 'specs', 'years', 'of', 'production', 'where', 'this', 'car', 'is', 'made', 'history', 'or', 'whatever', 'info', 'you', 'have', 'on', 'this', 'funky', 'looking', 'car', 'please', 'mail', 'thanks', 'il', 'brought', 'to', 'you', 'by', 'your', 'neighborhood', 'lerxst']]
+['where s  thing subject what car be nntp post host rac wam umd edu organization university maryland college park line be wonder anyone out there could enlighten car see other day be door sport car look be late early be call bricklin door be really small addition front bumper be separate rest body be know anyone can tellme model name engine spec year production where car be make history whatev info have funky look car mail thank bring  neighborhood lerxst']
+Sparsicity:  0.7758875693652992 %
+LatentDirichletAllocation(batch_size=128, doc_topic_prior=None,
+             evaluate_every=-1, learning_decay=0.7,
+             learning_method='online', learning_offset=10.0,
+             max_doc_update_iter=100, max_iter=10, mean_change_tol=0.001,
+             n_components=10, n_jobs=-1, n_topics=20, perp_tol=0.1,
+             random_state=100, topic_word_prior=None,
+             total_samples=1000000.0, verbose=0)
+Log Likelihood:  -9942763.842130946
+Perplexity:  2026.0706318473306
+{'batch_size': 128,
+ 'doc_topic_prior': None,
+ 'evaluate_every': -1,
+ 'learning_decay': 0.7,
+ 'learning_method': 'online',
+ 'learning_offset': 10.0,
+ 'max_doc_update_iter': 100,
+ 'max_iter': 10,
+ 'mean_change_tol': 0.001,
+ 'n_components': 10,
+ 'n_jobs': -1,
+ 'n_topics': 20,
+ 'perp_tol': 0.1,
+ 'random_state': 100,
+ 'topic_word_prior': None,
+ 'total_samples': 1000000.0,
+ 'verbose': 0}
+Best Model's Params:  {'learning_decay': 0.9, 'n_components': 10}
+Best Log Likelihood Score:  -3428977.7440534392
+Model Perplexity:  1955.4171303413145
